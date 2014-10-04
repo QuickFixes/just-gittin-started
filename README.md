@@ -16,10 +16,15 @@ Neo's tutorial helps you install Git on your workstation (but you can [use UCFS 
 
 * [Git Immersion](http://gitimmersion.com/)
 
+If you want a quick video overview of a particular Git concept, try the GitHub Guides YouTube channel. The "GitHub & Git Foundations" series videos cover one topic apiece, and are typically around 5 minutes.
+
+* [GitHub & Git Foundations](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
+
 <!-- link to wiki article here -->
 [ucfs-git]: https://github.uc.edu/IEEE-QuickFixes/git-and-github
 
 ### Videos
 1. [Webcast • The Basics of Git and GitHub • July 2013](https://www.youtube.com/watch?v=U8GBXvdmHT4) - a 50-minute webcast hosted by a GitHub employee that provides a high-level overview of what Git is, why you'd want to use it, and how GitHub.com layers extra collaborative features on top of Git <abbr title="Source Code Management">SCM</abbr>.
 2. [GitHub Training & Guides](https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw) YouTube channel (check out their [video intro](https://www.youtube.com/watch?v=y04-NzarItQ) for a quick chuckle)
-3. [Jessica Kerr: "Git Happens"](https://www.youtube.com/watch?v=Dv8I_kfrFWw) - a 54-minute conference talk which explains Git concepts like branching, merging, and rebasing in a highly visual way. Good if you're compfortable with basic Git usage, but have always wondered about more advanced usage like branching and rebasing. If you stick with it until the end, you'll be rewarded with an epiphany about `git rebase -i`. Promise.
+3. [GitHub Guides: GitHub & Git Foundations](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) - bite-sized videos covering one Git or GitHub topic each (_e.g._, `git diff`, `git rm`, branch, checkout, and merge) 
+4. [Jessica Kerr: "Git Happens"](https://www.youtube.com/watch?v=Dv8I_kfrFWw) - a 54-minute conference talk which explains Git concepts like branching, merging, and rebasing in a highly visual way. Good if you're compfortable with basic Git usage, but have always wondered about more advanced usage like branching and rebasing. If you stick with it until the end, you'll be rewarded with an epiphany about `git rebase -i`. Promise.
