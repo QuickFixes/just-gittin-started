@@ -1,7 +1,22 @@
-#IEEE QuickFix #1: Git and GitHub
+#Robotics+IEEE QuickFix #1: Git and GitHub
 
 This repository hosts reference materials and a sample repo for a hands-on Git/GitHub seminar.
 
+## What you'll need to get started
+
+### tl;dr version
+1. [Sublime Text](http://www.sublimetext.com/) (cross-platform, free to try)
+2. the official GitHub client for your platform ([Mac](http://mac.github.com), [Windows](http://windows.github.com))
+3. On Linux: `<your package manager's install command> git-core` plus [`git-cola`](http://pkgs.org/search/git-cola) (KDE) or [`giggle`](http://pkgs.org/search/giggle) (Unity/GNOME/XFCE) if you want something a bit nicer than `gitk` for visualizing your source tree.
+
+### Longer explanation
+We know that not everyone at our workshop will be eager to dive into a [Unix shell](https://ucfilespace.uc.edu/wiki/search/Unix%20Access%20on%20UCFileSpace) and start using [Vim](http://vim.org) and console `git` commands. So out of consideration for folks without much command-line experience, and for consistency, we'd like everyone to install [Sublime Text](http://sublimetext.com) the official GitHub [GUI](http://windows.github.com) [clients](http://mac.github.com) **before coming to the seminar**.
+
+These are straightforward, one-double-click installs for Mac and Windows.
+*  Sublime Text is available for all three major OSes (not Amiga, sorry), has good out-of-the box keybindings and syntax highlighting, and pretty good Git integration [with a plugin](https://github.com/kemayo/sublime-text-git) (for more advanced users).
+* The official GitHub client for Windows includes a self-contained installation of the Git command-line tools, and a colorized Powershell Git environment, which saves you the effort of installing msysGit or some other distribution. (Recent versions of Mac OS X already have `git` installed, and Terminal.app should be somewhere in your "Applications" folder.)
+
+All that being said, if you're comfortable using some other text editor (that is _not_ Microsoft Word, sorry) and/or prefer to do all your Git stuff from the command line, that's just fine. Just realize that we simply won't have time to work out installation issues if you stray too far off the path.
 
 ##Resources on the Web
 
