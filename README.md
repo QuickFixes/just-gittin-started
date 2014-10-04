@@ -7,6 +7,7 @@ This repository hosts reference materials and a sample repo for a hands-on Git/G
 
 ### References
 1. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - on GitHub.com; Markdown is the markup language used in GitHub issues, comments, and the default `README.md` for new repositories
+2. [Highest voted questions tagged 'git' on Stack Overflow](http://stackoverflow.com/questions/tagged/git?sort=votes&pageSize=15)
 
 ### Tutorials
 I highly recommend Git Immersion (created by locals at [Neo](http://neo.com)) for hands-on learning with the Git command-line tools. For these exercises, you can use UCFileSpace for [shell access](https://ucfilespace.uc.edu/wiki/search/Unix%20Access%20on%20UCFileSpace) and UC's [GitHub Enterprise server](https://github.uc.edu) as the remote "origin" repository, if you wish.
