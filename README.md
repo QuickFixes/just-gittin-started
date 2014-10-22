@@ -2,6 +2,8 @@
 
 This repository hosts reference materials and a sample repo for a hands-on Git/GitHub seminar.
 
+Through the magic of Git, we've mirrored the course materials on GitHub.com for folks who can't login in through UC's CLS. Most project-specific links should include one link to the [github.uc.edu version](https://github.uc.edu/QuickFixes/just-gittin-started) (and one in parentheses for the [github.com version](https://github.com/QuickFixes/just-gittin-started)). If we've missed any of those, or if you notice any other kinds of brokenness, feel free to [file an issue](https://github.uc.edu/QuickFixes/just-gittin-started/issues) (on [github.com](https://github.com/QuickFixes/just-gittin-started/issues)) or [a pull request](https://github.uc.edu/QuickFixes/just-gittin-started/pulls) for the "origin" repository here at UC. `:)`
+
 ## What you'll need to get started
 
 ### tl;dr version
@@ -42,6 +44,7 @@ I highly recommend Git Immersion (created by locals at [Neo](http://neo.com)) fo
 
 * [Git Immersion](http://gitimmersion.com/)
 
-Neo's tutorial helps you install Git on your workstation (but you can [use UCFS for that][ucfsqf]), gets you up-and-running with a sane Git configuration, walks you through all of the common commit/push/merge operations, and even forces you to break (and fix) things in some of the advanced lessons. Each lesson is short, and easy to go back and reference later when you run into trouble on a _real_ project. Although the tutorial's sample project is comprised of Ruby code, no familiarity with the [Ruby language](http://ruby-lang.org) is actually required to complete the tutorial.
+Neo's tutorial helps you install Git on your workstation (but you can [use UCFS for that][ucfsquickfix]; [on github.com][ucfsgithub]), gets you up-and-running with a sane Git configuration, walks you through all of the common commit/push/merge operations, and even forces you to break (and fix) things in some of the advanced lessons. Each lesson is short, and easy to go back and reference later when you run into trouble on a _real_ project. Although the tutorial's sample project is comprised of Ruby code, no familiarity with the [Ruby language](http://ruby-lang.org) is actually required to complete the tutorial.
 
-[ucfsqf]: /QuickFixes/lost-in-ucfilespace
+[ucfsquickfix]: https://github.uc.edu/QuickFixes/lost-in-ucfilespace
+[ucfsgithub]: https://github.com/QuickFixes/lost-in-ucfilespace
