@@ -21,7 +21,7 @@ All that being said, if you're comfortable using some other text editor (that is
 
 ##Resources on the Web
 
-_The [References](/QuickFixes/just-gittin-started/wiki/References) article in this project's wiki is __very__ comprehensive, and already includes most of the references listed below. It's organized by skill level, so you can tell at a glance which ones are useful to you._
+_The [References](/QuickFixes/just-gittin-started/wiki/References) article in this project's wiki is **very** comprehensive, and already includes most of the references listed below. It's organized by skill level, so you can tell at a glance which ones are useful to you._
 
 ### References
 2. [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - on GitHub.com; Markdown is the markup language used in GitHub issues, comments, and the default `README.md` for new repositories
