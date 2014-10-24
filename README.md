@@ -8,7 +8,7 @@ Through the magic of Git, we've mirrored the course materials on GitHub.com for 
 
 ## What you'll need to get started
 
-### tl;dr version
+### [tl;dr](http://www.urbandictionary.com/define.php?term=TLDR) version
 1. [Sublime Text](http://www.sublimetext.com/) (cross-platform, free to try)
 2. the official GitHub client for your platform ([Mac](http://mac.github.com), [Windows](http://windows.github.com))
 3. On Linux: `<your package manager's install command> git-core` plus [`git-cola`](http://pkgs.org/search/git-cola) (KDE) or [`giggle`](http://pkgs.org/search/giggle) (Unity/GNOME/XFCE) if you want something a bit nicer than `gitk` for visualizing your source tree.
