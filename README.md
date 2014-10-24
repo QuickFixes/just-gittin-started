@@ -1,4 +1,6 @@
-#Robotics+IEEE QuickFix #1: Git and GitHub
+#Robotics+IEEE QuickFix #1
+##Git and GitHub Workshop
+![event banner graphic][images/event_banner.png]
 
 This repository hosts reference materials and a sample repo for a hands-on Git/GitHub seminar.
 
