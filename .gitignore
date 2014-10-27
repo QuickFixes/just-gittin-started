@@ -1,0 +1,17 @@
+# Eclipse-specific settings
+.project
+.settings/**
+
+# Filesystem refuse
+.*~
+.*.swp
+.DS_Store
+/**/*.swp
+.cling_history
+
+# Vim session files
+*.sess
+
+# GFM Markdown previewer temp files
+.*.md.html
+
