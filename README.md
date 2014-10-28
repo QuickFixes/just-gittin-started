@@ -8,15 +8,14 @@ This repository hosts reference materials and a sample repo for a hands-on Git/G
 Through the magic of Git, we've mirrored the course materials on GitHub.com for folks who can't login in through UC's CLS. Most project-specific links should include one link to the [github.uc.edu version](https://github.uc.edu/QuickFixes/just-gittin-started) (and one in parentheses for the [github.com version](https://github.com/QuickFixes/just-gittin-started)). If we've missed any of those, or if you notice any other kinds of brokenness, feel free to [file an issue](https://github.uc.edu/QuickFixes/just-gittin-started/issues) (on [github.com](https://github.com/QuickFixes/just-gittin-started/issues)) or [a pull request](https://github.uc.edu/QuickFixes/just-gittin-started/pulls) for the "origin" repository here at UC. `:)`
 
 ## Short URLs for this course
-Here's a short link to get you back here:
-
+<p>Here's the short link to get you back here:
 <span style="font-size:150%">
   <a target="_blank" href="http://bit.ly/quickfix1home">
     http://bit.ly/quickfix1home</a>
   <a target="_blank" href="https://github.com/QuickFixes/just-gittin-started">
     <span class="octicon octicon-mark-github"></span>
   </a>
-</span>
+</span></p>
 
 <!--If you don't have a UC Central Login Service account,
 click the octocat icons (<span class="octicon octicon-mark-github"></span>)next
@@ -29,16 +28,16 @@ Here are some other helpful links:
   <tr><th width="40%">URL</th><th>What?</th><tr>
 </thead>
 <tbody>
-  <tr><!--chat-->
+  <tr>
     <td><a target="_blank" href="http://bit.ly/quickfix1chat">
       bit.ly/quickfix1chat</a></td>
     <td><small>If we get a big turnout and there aren't enough
       facilitators for every room, we'll be monitoring this Gitter.im
       chat room for questions. <em>Requires a GitHub.com
       account.</em></td>
-  </tr><!--/chat-->
+  </tr>
 
-  <tr><!--faq-->
+  <tr>
     <td>
       <a target="_blank" href="http://bit.ly/quickfix1faq"
         title="FAQ article on github.uc.edu">
@@ -51,9 +50,9 @@ Here are some other helpful links:
     <td><small>A list of what we predict might be Freqently Asked
       Questions, on the workshop's wiki. Pull requests
       welcome!</td>
-  </tr><!--/faq-->
+  </tr>
 
-  <tr><!--wiki-->
+  <tr>
     <td>
       <a target="_blank" href="http://bit.ly/quickfix1wiki"
         title="FAQ article on github.uc.edu">
@@ -65,10 +64,9 @@ Here are some other helpful links:
     <td><small>The workshop's GitHub project wiki. The
       step-by-step tutorials we'll be going through in the workshop
       are here.</small></td>
-  </tr><!--/wiki-->
-
+  </tr>
 </tbody>
-</table></p>
+</table>
 
 
 ## Giving feedback
