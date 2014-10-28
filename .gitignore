@@ -4,9 +4,9 @@
 
 # Filesystem refuse
 .*~
+**/.*.swp
 .*.swp
 .DS_Store
-/**/*.swp
 .cling_history
 
 # Vim session files
