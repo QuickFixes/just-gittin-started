@@ -1,6 +1,6 @@
 import nflgame
 
-games = nflgame.games(2013, week=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11, 12, 13, 14, 15, 16, 17])
+games = nflgame.games(2013, week=[ 5, 6, 7, 8, 9, 10,11, 12, 13, 14, 15, 16, 17])
 players = nflgame.combine_game_stats(games)
 
 for player in players.rushing().sort('rushing_yds').limit(25):
