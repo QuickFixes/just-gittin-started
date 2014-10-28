@@ -72,6 +72,13 @@ body {
 .reveal table tr:last-child td {
   border-bottom: none; }
 
+.reveal abbr {
+  border-bottom:1px dotted #333;
+}
+
+.reveal area {
+  cursor: pointer;
+}
 
 /*********************************************
  * HEADERS

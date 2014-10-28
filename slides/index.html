@@ -25,11 +25,11 @@
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
     <!-- Lightbox -->
-    <link rel="stylesheet" href="revealjs/lib/css/lightbox.css">
+    <!--link rel="stylesheet" href="revealjs/lib/css/lightbox.css"-->
     <!-- GitHub Octicons: https://octicons.github.com/ -->
     <link rel="stylesheet" href="revealjs/lib/octicons/octicons.css">
     <!-- http://www.opentip.org -->
-    <link rel="stylesheet" href="revealjs/lib/js/opentip-jquery.min.js">
+    <link rel="stylesheet" href="revealjs/lib/css/opentip.css">
 
     <!-- If the query includes 'print-pdf', include the PDF print sheet -->
     <script>
@@ -58,13 +58,15 @@
           <h3>Git and GitHub workshop</h3>
           <h4>October 28, 2014</h4>
           <p><small>Presented by
-            <a href="http://www.min.uc.edu/robotics">UC Robotics Team</a>
-            and <a href="http://www.ieee.uc.edu">UC-IEEE</a>
+            <a target="_blank" href="http://www.min.uc.edu/robotics">UC Robotics Team</a>
+            and <a target="_blank" href="http://www.ieee.uc.edu">UC-IEEE</a>
           </small></p>
           <img style="height:80px;margin-right:20px" src="img/ucrt_logo.png"/>
           <img style="height:60px;" src="img/ieee_logo.png"/>
 
-          <p style="font-size:60%;margin-top:1.5em">
+          <!--p style="margin-top:1.5em"><small>All links open in a new window/tab</small></p-->
+          <p style="font-size:60%">
+            All links open in a new window/tab<br>
             Use the arrow keys or swipe to get started
             <img style="vertical-align:middle;max-height:40px"
              src="img/right.png">
@@ -81,8 +83,8 @@
           <img style="max-height:400px" src="img/codercat.png">
         </section>
 
-        <section data-background="img/cookiemonster.jpg">
-        </section>
+        <!--section data-background="img/cookiemonster.jpg">
+        </section-->
 
         <!--section data-background="#CDBFE3"-->
         <!--section data-background="#E8C06E"-->
@@ -90,9 +92,9 @@
           <h2>For the Impatient:</h2>
           <p>The course materials are at<br>
             <span style="font-size:150%">
-              <a href="http://bit.ly/quickfix1home">
+              <a target="_blank" href="http://bit.ly/quickfix1home">
                 http://bit.ly/quickfix1home</a>
-              <a href="https://github.com/QuickFixes/just-gittin-started">
+              <a target="_blank" href="https://github.com/QuickFixes/just-gittin-started">
                 <span class="octicon octicon-mark-github"></span>
               </a>
             </span>
@@ -107,9 +109,9 @@
             </thead>
             <tbody>
               <tr><!--chat-->
-                <td><a href="http://bit.ly/quickfix1chat">
+                <td><a target="_blank" href="http://bit.ly/quickfix1chat">
                   <span class="octicon octicon-megaphone"></span></a></td>
-                <td><a href="http://bit.ly/quickfix1chat">
+                <td><a target="_blank" href="http://bit.ly/quickfix1chat">
                   bit.ly/quickfix1chat</a></td>
                 <td><small>If we get a big turnout and there aren't enough
                   facilitators for every room, we'll be monitoring the Gitter
@@ -118,13 +120,14 @@
               </tr><!--/chat-->
 
               <tr><!--faq-->
-                <td><a href="http://bit.ly/quickfix1faq">
+                <td><a target="_blank" href="http://bit.ly/quickfix1faq">
                   <span class="octicon octicon-question"></span></a></td>
                 <td>
-                  <a href="http://bit.ly/quickfix1faq"
+                  <a target="_blank" href="http://bit.ly/quickfix1faq"
                     title="FAQ article on github.uc.edu">
                     bit.ly/quickfix1faq</a>
-                  <a href="https://github.com/QuickFixes/just-gittin-started/wiki/Frequently-Asked-Questions"
+                  <a target="_blank"
+                    href="https://github.com/QuickFixes/just-gittin-started/wiki/Frequently-Asked-Questions"
                     title="FAQ article on github.com">
                     <span class="octicon octicon-mark-github"></span></a>
                 </td>
@@ -135,14 +138,14 @@
 
               <tr><!--wiki-->
                 <td>
-                  <a href="http://bit.ly/quickfix1wiki">
+                  <a target="_blank" href="http://bit.ly/quickfix1wiki">
                     <span class="octicon octicon-book"></span></a>
                 </td>
                 <td>
-                  <a href="http://bit.ly/quickfix1wiki"
+                  <a target="_blank" href="http://bit.ly/quickfix1wiki"
                     title="FAQ article on github.uc.edu">
                     bit.ly/quickfix1wiki</a>
-                  <a href="https://github.com/QuickFixes/just-gittin-started/wiki"
+                  <a target="_blank" href="https://github.com/QuickFixes/just-gittin-started/wiki"
                     title="FAQ article on github.com">
                     <span class="octicon octicon-mark-github"></span></a>
                 </td>
@@ -155,58 +158,20 @@
           </table></p>
         </section>
 
-
-        <section>
-          <h2>Introductions</h2>
-          <h3>a.k.a. why are <em>you</em> here?</h3>
-          <p>
-            <img style="max-height:200px;" src="img/octocat.png"/>
-            <img style="max-height:140px;" src="img/gitlogo.png"/>
-          </p>
-          <p>
-          <ul class="prettify">
-            <li>You've heard of this thing called Git?</li>
-            <li>Somebody's using it at work?</li>
-            <li>This: "You really should be using version control"?</li>
-            <li>You brought a friend? (Outstanding!)</li>
-            <li>You <em>are</em> the friend? (Welcome!)</li>
-          </ul>
-          </p>
-
-          <aside class="notes">
-            Oh hey, these are some notes. They'll be hidden in your
-            presentation, but you can see them if you open the speaker notes
-            window (hit 's' on your keyboard).
-          </aside>
-        </section>
-
-        <section>
-          <h1>Why we're here</h1>
-          <ul style="max-width:60%">
-            <li>To point you in the right direction</li>
-            <li>And offer moral support</li>
-            <li>Because Git really <em>is</em> that great</li>
-          </ul>
-
-          <p><small>And because UCit pays for
-            <a href="https://github.uc.edu">GitHub Enterprise</a> for
-            students, which is actually pretty cool of them.</small></p>
-        </section>
-
         <section>
           <section>
             <h2>How to use these slides</h2>
             <p>These slides are created in HTML and CSS using a framework
-              called <a href="http://lab.hakim.se/reveal-js">reveal.js</a>.</p>
+              called <a target="_blank" href="http://lab.hakim.se/reveal-js">reveal.js</a>.</p>
 
             <p class="fragment">
-              Which means you can <a href="img/ffpagestyle.png"
+              Which means you can <a target="_blank" href="img/ffpagestyle.png"
               data-lightbox="ffpagestyle"
               data-title="Firefox's View → Page Style menu. Press the 'Alt' key to reveal the full menu bar.">
               turn off the stylesheet</a> or use a browser plugin like
-              <a href="http://evernote.com/clearly/">Clearly</a> to view all
+              <a target="_blank" href="http://evernote.com/clearly/">Clearly</a> to view all
                 the slides at once, save into a notetaking program, or
-              <a href="https://github.com/hakimel/reveal.js#pdf-export">
+              <a target="_blank" href="https://github.com/hakimel/reveal.js#pdf-export">
                 print them out as a PDF</a>.
             </p>
 
@@ -241,7 +206,7 @@
             <h3>(Continued)</h3>
             <p class="">
               The whole slide deck will be available after the workshop is over
-              at <a style="font-size:150%"
+              at <a target="_blank" style="font-size:150%"
                 href="https://github.uc.edu/quickfixes/just-gittin-started">
                 github.uc.edu/quickfixes</a>
             </p>
@@ -254,7 +219,7 @@
           <p class="">
             These slides will also be mirrored on GitHub.com<br>(for people who
             don't have a UC CLS login)<br>
-            <a style="font-size:150%"
+            <a target="_blank" style="font-size:150%"
               href="https://github.com/quickfixes/just-gittin-started">
               github.com/quickfixes</a>
           </p>
@@ -268,6 +233,68 @@
           </div>
         </section> <!--/How to use these slides-->
 
+        <section>
+          <h2>Introductions</h2>
+          <h3>a.k.a. why are <em>you</em> here?</h3>
+          <p>
+            <img style="max-height:200px;" src="img/octocat.png"/>
+            <img style="max-height:140px;" src="img/gitlogo.png"/>
+          </p>
+          <p>
+          <ul class="prettify">
+            <li>You've heard of this thing called Git?</li>
+            <li>Somebody's using it at work?</li>
+            <li>This: "You really should be using version control"?</li>
+            <li>You brought a friend? (Outstanding!)</li>
+            <li>You <em>are</em> the friend? (Welcome!)</li>
+          </ul>
+          </p>
+
+          <aside class="notes">
+            Oh hey, these are some notes. They'll be hidden in your
+            presentation, but you can see them if you open the speaker notes
+            window (hit 's' on your keyboard).
+          </aside>
+        </section>
+
+        <section>
+          <h1>Why we're here</h1>
+          <ul style="max-width:60%">
+            <li>To point you in the right direction</li>
+            <li>And offer moral support</li>
+            <li>Because Git really <em>is</em> that great</li>
+          </ul>
+
+          <p><small>And because UCit pays for
+            <a target="_blank" href="https://github.uc.edu">GitHub Enterprise</a> for
+            students, which is actually pretty cool of them, but it's not
+            a well known fact outside of the CS and IT departments. And we
+            think that's kind of tragic.</small></p>
+        </section>
+
+        <section>
+          <h2>What we're here<br>to talk about</h2>
+          <ul>
+            <li style="font-size:150%">Git - <a target="_blank"
+              href="http://git-scm.com">git-scm.com</a>
+              <img src="img/gitlogo.png" style="height:40px;float:right;"></li>
+            <ul><li class="fragment">"The stupid content tracker"</li>
+              <li class="fragment">a system for managing sets of changes to
+               a bunch of files (usu. code), and <em>potentially</em> sharing
+               those changes with others</li>
+            </ul>
+            <li class="fragment" style="font-size:150%">GitHub - <a target="_blank"
+              href="https://github.uc.edu">github.com</a>
+              <img src="img/socialcoding.png" style="height:40px;float:right"></li>
+            <ul><li class="fragment">A web-based collaboration platform built
+              on top of Git, made for teams of coders and creators</li>
+              <li class="fragment">For our purposes, this is <a target="_blank"
+                href="https://github.uc.edu">github.uc.edu</a>, a kind of
+                GitHub.com-in-a-box for UC ("GitHub Enterprise")</li>
+            </ul>
+          </ul>
+        </section>
+
         <section data-transition="slide">
           <h1>So.</h1>
           <h2>The thing about Git is&hellip;</h2>
@@ -275,7 +302,10 @@
           <p class="fragment">It's a complex and powerful system</p>
           <p class="fragment">
             <small>It's a joke. Relax.<br>h/t
-            <a href="http://think-like-a-git.net/sections/git-makes-more-sense-when-you-understand-x.html">Think Like (a) Git</a></small>
+              <a target="_blank"
+              href="http://think-like-a-git.net/sections/git-makes-more-sense-when-you-understand-x.html">
+              Think Like (a) Git</a>
+           </small>
           </p>
         </section>
 
@@ -290,9 +320,11 @@
           <p class="fragment" style="font-size:125%">teach you enough to be
             productive with Git,</p>
           <p class="fragment">and give you a framework for understanding
-            <a href="http://https://github.uc.edu/QuickFixes/just-gittin-started/wiki/References"
+            <a target="_blank"
+              href="http://https://github.uc.edu/QuickFixes/just-gittin-started/wiki/References"
               title="'References' wiki article on github.uc.edu">other references</a>
-            <a href="https://github.com/QuickFixes/just-gittin-started/wiki/References"
+            <a target="_blank"
+              href="https://github.com/QuickFixes/just-gittin-started/wiki/References"
               title="'References' wiki article on github.com">
               <span class="octicon octicon-mark-github"></a></a>
             on the web when you're ready to learn more.</p>
@@ -300,20 +332,114 @@
 
         <section>
           <section>
-            <h3>What is this &laquo;version control&raquo;<br>you speak
+            <h3>What is this<br>&laquo;version control&raquo;<br>you speak
               of?</h3>
-            <p>I can basically <strong>guarantee</strong> it's something you're doing already.</p>
-            <a class="image fragment" data-lightbox="versions"
-              data-title="Believe it or not, this is revision control. Basically."
-              href="img/versions2x.png"><img src="img/versions.png"></a>
+            <p class="fragment">
+              <a target="_blank" class="image" style="float:right;" data-lightbox="versions"
+               data-title="Believe it or not, this is revision control. Basically."
+               href="img/versions2x.png"><img src="img/versions.png"></a>
+            </p>
+            <p>I can basically <strong>guarantee</strong> it's something you're
+              doing already.<br>
+              <a href="#" class="image navigate-down">
+                <img style="max-height:100px;" src="img/down.png" alt="Down
+                arrow"></a>
+            </p>
           </section>
           <section>
-            <img usemap="#map" src="img/versions2x_annotated.png">
+            <h3>You just didn't know it by that name</h3>
+            <p><small>But the "version control" tricks you were using for
+              a term paper for English Comp actually have a lot in common with
+              the way actual <abbr title="Version Control Software/Systems">VCSes</abbr>
+              work. VCSes just give names to everything.</small></p>
+            <img x-style="position:relative;left:100px;max-height:400px" id="vcsenglish"
+             data-ot="You can mouse over parts of the image for an explanation."
+             data-ot-show-on="creation" off-ot-stem="bottom right" off-ot-delay="2"
+             data-ot-hide-trigger="closeButton"
+             usemap="#map" src="img/versions2x_annotated.png">
             <map name="map">
-              <area data-ot="Build artifacts" data-ot-delay="2" data-ot-tip-joint="left" data-ot-hide-trigger="closeButton" shape="rect"
-                coords="43,77,619,139" alt="build artifacts"
-                href="#" />
+              <area data-ot="'Artifacts' get generated (sometimes
+               automatically) from your source files. Like saving a Word .doc
+               as PDF. They're not really something you need to keep old
+               revisions of, so you usually tell the VCS to ignore them."
+               data-ot-offset="[0, -100]" shape="rect"
+               coords="2,78,932,139" nohref="nohref" alt="build artifacts" />
+              <area data-ot="A 'pull request' on GitHub is a lot like emailing
+               a copy of a Word doc back to someone with embedded comments'"
+               data-ot-offset="[0, -72]"
+               shape="rect" coords="1,141,933,171"  nohref="nohref" alt="pull
+               request" />
+              <area data-ot="'Branches' in a version control system are where
+               ongoing changes are made, so that the 'production' version
+               (software that people are using, or a public-facing web site)
+               isn't adversely affected. This is like working on a draft of
+               a document on your laptop, going through several revisions
+               before sending it off to a collaborator, who might also make
+               changes and send them back." data-ot-offset='[0, 0]'
+               shape="rect" coords="1,173,934,267"  nohref="nohref"
+               alt="development branches" />
+              <area data-ot="'Tagged releases' are like when you have this
+                massive email chain going with a collaborator, and you want to
+                communicate that 'yes, this really IS the good, final, really
+                finally finished version.' You might add something like 'FINAL'
+                to the filename. In software this would be like
+                'releasing version 1.0.'" data-ot-offset="[0, 28]"
+                shape="rect" coords="1,267,933,299"  nohref="nohref" alt="tagged release" />
+              <area data-ot="In a software project, sometimes you have to set
+                aside what you're working on to fix a defect that somebody else
+                found. That's done in a branch, too, so that the running
+                'production' code isn't affected until you're ready to
+                'merge' in the fix. Working in branches also means you don't
+                lose whatever you were working on before"
+                data-ot-offset="[0, 50]" shape="poly"
+                coords="2,300,2,331,526,331,526,364,933,364,933,300"
+                nohref="nohref" alt="bugfix branch" />
+              <area data-ot="Experimental modifications that could
+               break things (web site layout, or the stability of a software
+               product) are also done in branches. This way the 'production'
+               version doesn't end up borked if something goes wrong with the
+               'experiment.' This is like saving a backup copy of an English
+               paper right before doing a massive rewrite. In Git, you can
+               create (and abandon) branches really easily, and that's one
+               reason it's gaining popularity over other VCSes."
+               data-ot-offset="[0, 105]"
+               shape="rect" coords="1,364,933,395" nohref="nohref"
+               alt="experimental branch" />
             </map>
+          </section>
+        </section>
+
+        <section class="prettify">
+          <section>
+            <h2>Social coding?</h2>
+            <img style="max-height:200px;padding:20px 40px;border-radius:10px;background:#fff;" src="img/collabocats.jpg">
+            <p>This might not be something you'll "get" right away.
+              <small>Or have a need for. You can use Git and GitHub to manage
+                collections of files without ever sharing them with anyone!</small>
+            <p>
+            <p class="fragment">But imagine using <strong>email</strong> to
+              send iterations of a design to a client or revisions of
+              a research paper to a collaborator.<br>
+              <a href="#" class="image navigate-down">
+                <img style="max-height:100px;" src="img/down.png" alt="Down
+                arrow">
+              </a></p>
+          </section>
+          <section>
+            <h2>Social coding.</h2>
+            <p>At some point in the process, there's inevitably confusion about
+              which email represents the <strong>last</strong> version, or over
+              who has the <strong>good</strong> (production, final, "golden")
+              version.</p>
+            <p class="fragment">Now imagine working on a software project with <span
+              class="highlight-blue">millions of lines
+              of code</span>, and <span class="highlight-blue">thousands of
+              collaborators</span> all over the world.<br>
+              <img style="max-height:200px" src="img/benevocats.png"><br>
+              <small>This is exactly the scenario that
+              <a href="http://en.wikipedia.org/wiki/Git_%28software%29#History"
+               title="'History' section of Wikipedia article on Git">led to Git's creation</a>.
+              </small></p>
           </section>
         </section>
 
@@ -388,17 +514,63 @@
         </section> <!-- Basic terms -->
 
 
-        <section>
+        <!--section>
           <h2>Take a Moment</h2>
           <p>
             Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
             during a presentation.
           </p>
-        </section>
+        </section-->
 
 
         <section>
-          <h1>THE END</h1>
+          <h2>Let's Git Started!</h2>
+          <h3>No-install option</h3>
+          <small>A totally-web based tutorial. No software installation
+            required.</small>
+          <p style="font-size:150%;margin:0 0 1.3em;"><a
+            href="https://try.github.io">try.github.io</a>
+          </p>
+          <h3>Using the GitHub GUI</h3>
+          <small>Use GitHub for a simple HTML+CSS project</small>
+          <ul>
+            <li>Have a peek at the
+              <a href="https://github.uc.edu/QuickFixes/just-gittin-started#what-youll-need-to-get-started">
+                "What you'll need..."</a> <a href="https://github.uc.edu/QuickFixes/just-gittin-started#what-youll-need-to-get-started">
+                <span class="octicon octicon-mark-github"></span></a> section
+                in the QuickFix #1 project README for the necessary software.
+              </li>
+            <li>Then follow the instructions in the README for the <a
+              href="https://github.uc.edu/QuickFixes/qf1-dancemoves">Dance Moves</a>
+              <a href="https://github.uc.edu/QuickFixes/qf1-dancemoves">
+                <span class="octicon octicon-mark-github"></span></a>
+              repository on GitHub</li>
+          <ul> <!-- GUI Git -->
+        </section>
+
+        <section>
+          <h2>Let's Git Started!<br>(Continued)</h2>
+          <h3>Command-line Git</h3>
+          <small>Use Git for a simple Ruby project (no programming
+              experience required</small>
+          <ul>
+            <li>Check out the
+              <a href="https://github.uc.edu/QuickFixes/just-gittin-started#what-youll-need-to-get-started">
+                "What you'll need..."</a>
+              <a href="https://github.uc.edu/QuickFixes/just-gittin-started#what-youll-need-to-get-started">
+                <span class="octicon octicon-mark-github"></span></a> section
+              in the QuickFix #1 project README for the necessary software.
+            </li>
+            <li>Then go to <a href="http://gitimmersion.com">gitimmersion.com</a></li>
+          <ul> <!-- command-line Git -->
+        </section>
+
+        <section>
+          <img style="max-height:400px;" src="img/gangnamtocat.png">
+        </section>
+
+        <section>
+          <small>You can go have fun now. No more slides! Yay!</small>
         </section>
 
       </div> <!--/.slides-->
@@ -412,9 +584,26 @@
     <script src="revealjs/lib/js/lightbox.min.js"></script>
     <script src="revealjs/lib/js/jsprettify-all-latest.js"></script>
     <script> window.jsprettify.prettify(); </script>
-    <script src="revealjs/lib/js/opentip-jquery.min.js"></script>
+    <!--script src="revealjs/lib/js/opentip-jquery.min.js"></script-->
 
     <script>
+
+      /* This was just too janky for what I was using it for, and whatever
+         offsets you choose don't seem to apply across browsers
+      Opentip.styles.quickFix1 = {
+        extends: "glass",
+        // Tells the tooltip to be fixed and be attached to the trigger, which is the default target
+        target: true,
+        stem: 'top left',
+        stemLength: 20,
+        stemBase: 20,
+        tipJoint: 'left',
+        closeButtonRadius: 15,
+        closeButtonCrossSize: 8,
+        closeButtonCrossLineWidth: 3
+        //showOn: "creation"
+      };
+      Opentip.defaultStyle = "quickFix1";*/
 
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
