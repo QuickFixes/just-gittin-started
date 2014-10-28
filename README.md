@@ -83,6 +83,7 @@ While the workshop is going on, you can also hit us up on the [Gitter chat room]
 ## What you'll need to get started
 
 ### [tl;dr](http://www.urbandictionary.com/define.php?term=TLDR) version
+0. The [slides for this course][slides] ([on github.com][githubslides]), if you're not physically attending and just want an overview of what's going on.
 1. A [GitHub.com](https://github.com) account if you want to use the [chat room for the workshop](https://gitter.im/QuickFixes/just-gittin-started). You don't need to sign up for any accounts to use this repository on github.uc.edu, though. _That_ uses your regular UC CLS (six+two) login.
 2. [GitHub Help](https://help.github.com), or your trusty googles if you get stuck. You can also have a look at our [references page][qfrefs] ([on github.com][qfgithubrefs]).
 3. Software
@@ -142,6 +143,8 @@ Check out the ["When you're ready to learn more"](https://github.uc.edu/QuickFix
 "Think Like (a) Git" and the "Advanced Git: Graphs, Hashes, and Compression" YouTube video are pretty satisfying resources when feel like you've got the basics and you're ready to learn more about Git internals.
 
 <!-- footnote-style hyperlinks -->
+[slides]: https://github.uc.edu/pages/QuickFixes/just-gittin-started/
+[githubslides]: http://quickfixes.github.io/just-gittin-started/
 [trygit]: https://try.github.io
 [qfwiki]: https://github.uc.edu/QuickFixes/just-gittin-started/wiki
 [qfgithubwiki]: https://github.com/QuickFixes/just-gittin-started/wiki
