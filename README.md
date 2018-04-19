@@ -1,5 +1,4 @@
 # Robotics+IEEE QuickFix #1
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/QuickFixes/just-gittin-started)
 
 ### Git and GitHub Workshop
 ![event banner graphic](images/event_banner.png)
