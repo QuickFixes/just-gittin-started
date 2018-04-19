@@ -1,6 +1,7 @@
-#Robotics+IEEE QuickFix #1
+# Robotics+IEEE QuickFix #1
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/QuickFixes/just-gittin-started)
-###Git and GitHub Workshop
+
+### Git and GitHub Workshop
 ![event banner graphic](images/event_banner.png)
 
 This repository hosts reference materials and a sample repo for a hands-on Git/GitHub seminar.
