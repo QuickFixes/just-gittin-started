@@ -96,7 +96,7 @@ While the workshop is going on, you can also hit us up on the [Gitter chat room]
 
 4. Get your learn on
     * Command-line based tutorial: [gitimmersion.com](http://gitimmersion.com)
-    * Walkthrough using the GitHub GUI to manage an HTML+CSS project (a simple web site): [github.uc.edu/QuickFixes/qf1-dancemoves](https://github.uc.edu/QuickFixes/qf1-dancemoves)
+    * Walkthrough using the GitHub GUI to manage an HTML+CSS project (a simple web site): [github.uc.edu/QuickFixes/qf1-dancemoves](https://github.uc.edu/QuickFixes/qf1-dancemoves) ([on github.com](https://github.com/QuickFixes/qf1-dancemoves))
 
 ### Longer explanation
 We know that not everyone at our workshop will be eager to dive into a [Unix shell](https://ucfilespace.uc.edu/wiki/search/Unix%20Access%20on%20UCFileSpace) and start using [Vim](http://vim.org) and console `git` commands. So out of consideration for folks without much command-line experience, and for consistency, we'd like everyone to install [Sublime Text](http://sublimetext.com) the official GitHub [GUI](http://windows.github.com) [clients](http://mac.github.com) **before coming to the seminar**.
